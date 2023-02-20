@@ -10,8 +10,13 @@ class Point:
     def __add__(self,other):
         x=self.x+other.x
         y=self.y+other.y
+        
         return Point(x,y)
 
 p1=Point(2,3)
 p2=Point(-1,2)
 print(p1+p2)               #Not Possible since object
+
+# OBJECT RELATIONAL MAPPING
+# Function as a argument is decorator. Restricts access of main code block to other developers.
+# Polymorphism 
